@@ -1,13 +1,17 @@
-/**
-* Template Name: iPortfolio - v3.9.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+/* scroll */
+*{
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background: linear-gradient(blue, #bfbebe, blue);
+}
+/* scroll */
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
