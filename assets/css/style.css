@@ -3,12 +3,12 @@
   margin: 0;
 }
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-thumb{
   border-radius: 20px;
-  background: linear-gradient(blue, #bfbebe, blue);
+  background: linear-gradient(rgb(215, 209, 209), rgb(51, 50, 50),#000,rgb(215, 209, 209));
 }
 /* scroll */
 
