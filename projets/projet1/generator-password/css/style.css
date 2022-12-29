@@ -1,0 +1,88 @@
+*{
+    text-align: center;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color:  #4A235A;
+    border: 15px solid #2e0544;
+    margin: 15vh auto;
+    height: 350px;
+}
+
+.container div{
+display: flex;
+justify-content: space-between;
+}
+
+form{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nombre{ /*input number*/
+    width: 30px;    
+}
+.btn{
+    width: 100%;
+    cursor: pointer;
+    height: 8vh;
+    background-color: yellow;
+    color: orange;
+    font-size: large;
+}
+.header{
+    height: 100px;
+    background-color: #5B2C6F;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    flex: 1;
+}
+
+.cp{
+    justify-content: end;
+    position: relative;
+    flex: 1;
+}
+.cp div{
+    flex: 9;
+}
+.copy{
+    cursor: pointer;
+    flex: 1;
+    visibility: hidden;
+}
+.copy.access{
+    visibility: visible;
+}
+.pwd{
+    flex: 1;
+    display: flex;
+}
+.pwd-1{
+    flex: 1;
+}
+.pwd-2{
+    flex: 1;
+    color: #fff;
+    font-size: 1rem;
+}
+.pwd-3{
+    flex: 1;
+}
+.end-header{
+    flex: 1;
+}
+h1{
+    margin: 8vh;
+}
+#Ppwd{
+    /* visibility: hidden; */
+}

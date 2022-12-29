@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    color: rgba(245, 245, 245, 0.746);
+}
+body{
+    background-color: slategrey;
+}
+.container{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#count-dounw{
+    display: flex;
+    justify-content: center;
+    transform: scale(2.3);
+    visibility: hidden;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+h3{
+    font-size: 3.3rem;
+}
+.loading{
+    position: absolute;
+}
+img{
+    visibility: visible;
+    opacity: .088;
+    border-radius: 50%;
+    transition: .3s ease;
+}

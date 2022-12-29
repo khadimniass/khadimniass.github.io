@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 4</title>
+    <link rel="icon" href="../SA.jpg" type="image">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../menu.css">
+</head>
+
+<body>
+    <h2>
+        <a href="/">
+            REVENIR AU PORTFOLIO
+        </a>
+    </h2>
+    <div class="menu">
+        <div class="tp1">
+            <a href="../card-generator/index.html">
+                GENERATEUR DE CARD
+            </a>
+        </div>
+        <div class="tp2">
+            <a href="../card-generator/index.html">
+                GENERATEUR DE MOT DE PASS
+            </a>
+        </div>
+
+        <div class="tp3">
+            <a href="../mover-sentences/index.html">
+                DEPLACEUR DE PHRASES
+            </a>
+        </div>
+        <div class="tp4">
+            <a href="../quizz/index.html">
+                QUIZZ
+            </a>
+        </div>
+    </div>
+    <div class="btnstart">
+        <h1>appuyer sur demmarrer pour débuter le quiz</h1>
+        <button class="start" id="startButton">DEMARRER</button>
+    </div>
+
+        <div class="container">
+            <div id="questions">
+                <h1 id="question">question en cours ?</h1>
+            </div>
+        <div class="form">
+            <div class="parent-item">
+                <div class="item-form">
+                    <label for="a" id="rep-a">Reponse a</label>
+                    <input  class="question-place" type="radio" id="a">
+                </div>
+ 
+                <div class="item-form">
+                    <label for="b" id="rep-b">Reponse b</label>
+                    <input  class="question-place" type="radio" id="b">
+                </div>
+ 
+                <div class="item-form">
+                    <label for="c" id="rep-c">Reponse c</label>
+                    <input  class="question-place" type="radio" id="c">
+                </div>
+
+                <div class="item-form">
+                    <label for="d" id="rep-d">Reponse d</label>
+                    <input  class="question-place" type="radio" id="d">
+                </div>
+            </div>
+            <input type="submit" class="Suivant" value="Suivant">
+        </div>
+    </div>
+
+    <div class="containt-score">
+        <h2>vous avez trouvez <span class="result"></span> de questions</h2>
+        <button id="ReJouer">ReJouer</button>
+    </div>
+
+    <script src="scrypt.js"></script>
+</body>
+</html>

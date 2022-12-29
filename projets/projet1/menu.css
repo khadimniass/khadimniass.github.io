@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 10vh;
+  margin: auto;
+  border: 1px solid #abb2b9;
+  border-radius: 10px;
+}
+.menu div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* font-size: 2rem; */
+  color: #fff;
+  text-align: center;
+}
+
+.tp1 {
+  flex: 1;
+  background-color: green;
+}
+.tp2 {
+  flex: 1;
+  background-color: #EAEDED;
+}
+.tp3 {
+  flex: 1;
+  background-color: #4A235A;
+}
+.tp3 a {
+  color: white;
+}
+.tp4 {
+  flex: 1;
+  background-color: #829e;
+}

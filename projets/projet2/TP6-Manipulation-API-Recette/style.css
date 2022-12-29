@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  overflow-y: scroll;
+}
+.container {
+  /* border: solid; */
+  /* max-height: 100vh; */
+  width: 500px;
+  margin: 2vw auto 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px -1px 167px -58px rgba(0,0,0,0.2);
+-webkit-box-shadow: 0px -1px 167px -58px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px -1px 167px -58px rgba(0,0,0,0.2);
+} 
+.header-party {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+.search {
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  border-radius: 5px;
+  height: 5vh;
+  border-radius: 10px;
+}
+.search i {
+  margin: 5%;
+}
+input {
+  background-color: grey;
+  height: 100%;
+  color: #fff;
+  font-size: 1.3rem;
+  border: none;
+  font-weight: 900;
+}
+input:focus {
+  background-color: grey;
+  opacity: 0.5;
+  border: #fff;
+}
+.meadle {
+  flex: 1.8;
+  background-color: #f3e1ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.cont-h-img {
+  /* border: solid black; */
+  height: 100px;
+  width: 100px;
+}
+.cont-h-img img {
+  box-shadow: 0px 0px 5px 5px #fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.icone strong {
+  margin: 20%;
+  font-size: 1.3rem;
+}
+.meadle h3 {
+  font-size: 2rem;
+}
+.bottom-part {
+  flex: 2;
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+}
+.item-bottom {
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  /* border: solid blue; */
+  margin: 5%;
+  /* box-shadow: 0px -1px 167px -58px rgba(0,0,0,0.62);
+-webkit-box-shadow: 0px -1px 167px -58px rgba(0,0,0,0.62);
+-moz-box-shadow: 0px -1px 167px -58px rgba(0,0,0,0.62); */
+}
+.cont-m-img {
+  /* border: solid black; */
+  height: 400px;
+  width: 500px;
+}
+.cont-m-img img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10px; */
+}
+.details {
+  /* border: solid green; */
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+.b-containt-btn {
+  position: absolute;
+  border-radius: 10px;
+  top: 10%;
+  border: none;
+}
+.b-containt-btn button {
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#generator-recette .cont-m-img:hover{
+    visibility: visible;
+}
+.containt-popup{
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.containt-popup.open-popup{
+    visibility: visible;
+}
+.popup{
+    background-color: #fff;
+    /* height: 50vh; */
+    width: 50%;
+    border-radius: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.pop-header{
+    /* border: solid black; */
+    display: flex;
+}
+.close{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    clip-path: polygon(9% 0, 0 10%, 33% 51%, 0 90%, 10% 100%, 50% 61%, 90% 100%, 100% 90%, 67% 51%, 100% 10%, 90% 0, 49% 38%);
+    margin: 1%;
+    cursor: pointer;
+}
+.pop-h-left-part{
+flex: 9;
+/* border: solid blue; */
+}
+.pop-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popup h2{
+    /* text-align: center; */
+}
+.pop-containt-img{
+    height: 300px;
+    width: 300px;
+    /* border: solid black; */
+}
+.pop-containt-img img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.pop-bottom{
+  width: 90%;
+    margin: auto;
+}
+#heart{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.link-indicator{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.link-indicator a{
+  text-decoration: none;
+  color: grey;
+}

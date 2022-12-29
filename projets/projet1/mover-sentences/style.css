@@ -1,0 +1,63 @@
+body{
+    overflow-y: hidden;
+}
+.container{
+    display: flex;
+    height: 95vh;
+    width: 100%;
+    border: 3px solid #EAEDED;
+    justify-content: space-between;
+}
+.gauche{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 30%;
+    background-color: #EAEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn button{
+    width: 30%;
+    margin: 1%;
+    height: 3rem;
+    border-radius: .5rem;
+}  
+.btn button:hover{
+    background-color: red;
+    color: white;
+}
+.droite{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph p{
+    cursor: pointer;
+}
+.paragraph p:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.actived{
+    color: #fff;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    scale: 1.5;
+    transition: 2s;
+}
+.titlle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEDED;
+}

@@ -1,0 +1,88 @@
+:root {
+  --success-color: #42ba96;
+  --danger-color: #df4759;
+  --warning-color: #ffc107;
+  --info-color: #007bff;
+  --duration: .7s;
+}
+@keyframes anime {
+    from {
+        transform: translate(0%, -500%);
+        color: #000;
+        opacity : 0;
+    }
+    to {
+      transform: translate(0%, 0%);
+      color: #fff;
+      opacity : 1;
+    }
+  }
+
+body {
+  transition: var(--duration);
+  background-color: #ebedef;
+}
+.containt-button {
+  background-color: #fff;
+  height: 10vh;
+  width: 60%;
+  margin: 10vh 20vw auto 5vw;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containt-button button {
+  color: #fff;
+  border: none;
+  height: 40%;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.containt-button button:nth-child(1) {
+  background-color: var(--success-color);
+  transform: var(--duration);
+}
+.containt-button button:nth-child(2) {
+  background-color: var(--danger-color);
+}
+.containt-button button:nth-child(3) {
+  background-color: var(--warning-color);
+}
+.containt-button button:nth-child(4) {
+  background-color: var(--info-color);
+}
+.containt-alert {
+  position: fixed;
+  bottom: 10px;
+  right: 25px;
+  height: 90px;
+  width: 200px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+span {
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.containt-alert.success {
+  background-color: var(--success-color);
+  animation: var(--duration) anime;
+}
+.containt-alert.danger {
+  background-color: var(--danger-color);
+  animation: var(--duration) anime;
+}
+.containt-alert.warning {
+  background-color: var(--warning-color);
+  animation: var(--duration) anime;
+}
+.containt-alert.info {
+  background-color: var(--info-color);
+  animation: var(--duration) anime;
+}

@@ -1,0 +1,24 @@
+*{
+    text-decoration: none;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vh;
+}
+.container div{
+    background-color: #D5D8DC;
+    height: 10vh;
+    width: 50%;
+    margin:auto;
+    border: 1px solid #333;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    
+}

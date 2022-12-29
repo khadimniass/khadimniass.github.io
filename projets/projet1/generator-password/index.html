@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERATEUR DE MOT DE PASS</title>
+    <link rel="icon" href="../SA.jpg" type="image">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../menu.css">
+</head>
+
+<body>
+    <h1>Générateur de password. Fais ton choix pour avoir ton mot de pass</h1>
+    <div style="text-align: center;">
+        <h2>
+            <a href="/">
+                REVENIR AU PORTFOLIO
+            </a>
+        </h2>
+    </div>
+    <div class="menu">
+        <div class="tp1">
+            <a href="../card-generator/index.html">
+                GENERATEUR DE CARD
+            </a>
+        </div>
+        <div class="tp2">
+            <a href="../generator-password/index.html">
+                GENERATEUR DE MOT DE PASS
+            </a>
+        </div>
+
+        <div class="tp3">
+            <a href="../mover-sentences/index.html">
+                DEPLACEUR DE PHRASES
+            </a>
+        </div>
+        <div class="tp4">
+            <a href="../quizz/index.html">
+                QUIZZ
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="cp">
+                <div></div>
+                <button class="copy">copy</button> <!--un message prouvant le copy est fait-->
+            </div>
+            <div class="pwd">
+                <div class="pwd-1"></div>
+                <div class="pwd-2">
+                    <!-- <textarea type="text" id="Ppwd"></textarea> -->
+                  <!-- I823Zs78#Css09@ -->  
+                </div>
+                <div class="pwd-3"></div>
+            </div>
+            <div class="end-header"></div>
+        </div>
+        <form method="post" id="form">
+            <div class="form-control">
+                <label for="nombre">Longueur du password</label>
+                <input class="nombre" id="nombre" type="text" name="nombre">
+            </div>
+
+            <div class="form-control">
+                <label for="majuscules">Contient des Lettres Majuscules</label>
+                <input type="checkbox" name="majuscules" id="majuscules">
+            </div>
+            <div class="form-control">
+                <label for="minuscules">Contient des Lettres Minuscules</label>
+                <input type="checkbox" name="minuscules" id="minuscules">
+            </div>
+            <div class="form-control">
+                <label for="nbm">Contient des Nombres </label>
+                <input type="checkbox" name="nombre" id="nbm">
+            </div>
+            <div class="form-control">
+                <label for="special">Contient des Caractères Spéciaux</label>
+                <input type="checkbox" id="special" name="special">
+            </div>
+
+            <input class="btn" type="submit" value="Generer Le Mot de Pass">
+        </form>
+    </div>
+    <script src="js/scrypt.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+body{
+    background-color: #3498db;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+#ajouter {
+  text-decoration: none;
+  width: 95px;
+  height: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  border-radius: 8px;
+  margin-top: 2%;
+  color: #fff;
+}
+.textarea-items {
+  /* container de tous les texteare */
+  width: 100%;
+  border-color: green;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  background-color: #28b463;
+  width: 90%;
+  cursor: pointer;
+}
+.header div{
+    width: 15px;
+}
+.header img {
+  cursor: pointer;
+  background-color: #fff;
+  margin-left: 0%;
+}
+.header button{
+  width: 30px;
+  padding-right: 0;
+  border: none;
+  background-color: #28b463;
+}
+.header-area{
+  width: fit-content;
+}
+
+textarea {
+  width: 97%;
+  /**/
+  transform: scale(.9);
+  transform-origin: 0 0;
+  transition: transform 1s;
+}
+.d{
+  transform: scale(.9);
+  transform-origin: 0 0;
+  transition: transform 1s;
+
+  visibility: hidden;
+  transform: scale(1.3);
+}
+
+
+header.active{
+  cursor: move;
+  user-select: none;
+}

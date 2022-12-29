@@ -1,0 +1,96 @@
+.container{
+    width: 60%;
+    height: 50vh;
+    border: 5px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10vh;
+    visibility: hidden;
+}
+.container.display{
+    visibility: visible;
+}
+.containt-score{
+    width: 75%;
+    height: 15vh;
+    border: 10px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2vh;
+    visibility: hidden;
+
+}
+.containt-score.display{
+    visibility: visible;
+}
+h2{
+    text-align: center;
+}
+#ReJouer{
+    height: 8vh;
+    background-color: #8E44AD ;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+h1{
+    flex: 1;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.form{
+    flex: 8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.parent-item{
+    width: 40%;
+    margin: auto;
+}
+.Suivant{
+    height: 8vh;
+    background-color: #8E44AD ;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: pointer;
+}
+.item-form{
+    display: flex;
+    width: 100%;
+    margin: 10%;
+    justify-content: space-between;
+    scale: 2;
+}
+label{
+    cursor: pointer;
+}
+.btnstart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* visibility: hidden; */
+}
+.start {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 0px auto;
+    border-radius: 10px;
+    background-color: #8E44AD;
+    cursor: pointer;
+  }
+.start:hover{
+    color: #fff;
+}
+.hiden{
+    visibility: hidden;
+}
