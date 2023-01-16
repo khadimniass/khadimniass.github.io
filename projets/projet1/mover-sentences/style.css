@@ -1,5 +1,9 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 .container{
     display: flex;
@@ -7,12 +11,15 @@ body{
     width: 100%;
     border: 3px solid #EAEDED;
     justify-content: space-between;
+    margin-bottom: 2vh;
+    overflow-y: auto;
 }
 .gauche{
     width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 }
 .btn{
     width: 30%;
@@ -21,6 +28,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 }
 .btn button{
     width: 30%;
@@ -38,6 +46,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 }
 .paragraph p{
     cursor: pointer;

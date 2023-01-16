@@ -6,7 +6,7 @@ const btncopy = document.querySelector(".copy");
 const outcopy =document.querySelector(".cp");
 /*checkbox button*/
 const inputNumber = document.getElementById("nombre");
-
+ 
 const Cmajuscule = document.querySelector("#majuscules");
 const Cminuscule = document.getElementById("minuscules");
 const Cnombre = document.querySelector("#nbm");

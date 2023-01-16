@@ -3,11 +3,12 @@ const butDg = document.querySelector("#btn-d-g");
 const gauche = document.querySelector(".paragraph-g");
 const droite = document.querySelector(".paragraph-d");
 var paragraphs = [
-  " mon premier element",
+  "mon premier element",
   "mon deuxieme element",
   "mon troisieme element",
   "mon Quatrieme element",
   "mon cinquieme element",
+  "mon sixieme element",
 ];
 
 function disableButton(container, button) {
