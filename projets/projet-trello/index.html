@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/style.alert.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/neige.jpg" type="image">
+    <title>TRELLO</title>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align: center;">
+            <h4>
+                <a href="/#trello">
+                    REVENIR AU PORTFOLIO
+                </a>
+            </h4>
+        </div>
+        <header>
+
+            <div class="auto-save">
+                <i class="fa-solid fa-arrow-down"></i>
+                <save>auto save</save>
+            </div>
+            <div class="h-cont-btn">
+                <button id="add-column">ajouter colonne</button>
+                <button id="add-note">ajouter noter</button>
+            </div>
+
+            <i title="liste des différents etats" class="fa-solid fa-angle-up icon-head-cen"></i>
+            <i title="sauvegarder etat" class="fa-solid fa-file icon-head-cen"></i>
+
+            <i title="corbeille des taches supprimées" class="fa-solid fa-trash icon-head-cen"></i>
+
+        </header>
+        <div class="liste-etats">
+            <h1>liste des etats</h1>
+        </div>
+        <main>
+            <!--  -->
+        </main>
+        <!-- begin popup de confirmation -->
+        <div class="container-popup">
+            <div class="body-pop">
+                <!-- <input type="checkbox" id="check"> -->
+                <!-- <label class="show_button" for="check">Click Me</label> -->
+                <div class="background"></div>
+                <div class="alert_box">
+                    <div class="cont-icone-pop">
+                        <div class="icone-poup">
+                            <i class="fas fa-exclamation"></i>
+                        </div>
+                    </div>
+                    <div class="head-popup">Confirm</div>
+                    <p id="message-alerte">tu es vraiment sur de vouloir effacer</p>
+                    <div class="btns">
+                        <label id="oui">OUI</label>
+                        <label id="non">NON</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--en popup de confirmation -->
+
+        <!--begin notification -->
+        <div class="notification">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <span id="message"></span>
+        </div>
+        <!--end notification -->
+        <aside class="containt-corbeille">
+            <div class="i-heaed">
+                <i>restoration</i>
+            </div>
+            <div class="i-body element-supprimer">
+
+            </div>
+        </aside>
+
+        <div class="modal">
+            <div class="mod-body">
+                <div class="mod-head">
+                    <div class="close">x</div>
+                </div>
+                <div class="mod-main">
+                    <span>les informations de lanouvelle tâche</span>
+                    <!-- <form action="" method="post"> -->
+                    <div class="form-it">
+                        <label for="tache">tache</label>
+                        <textarea name="" id="tache" cols="30" rows="10" autofocus ></textarea>
+                        <small></small>
+                    </div>
+                    <div class="form-it">
+                        <label for="date">date</label>
+                        <input type="date" name="" id="date">
+                        <small></small>
+                    </div>
+                    <div class="form-it">
+                        <label for="timed">heure de depart</label>
+                        <input type="time" name="timed" id="timed">
+                        <small></small>
+                    </div>
+                    <div class="form-it">
+                        <label for="timef">heure de fin</label>
+                        <input type="time" name="timef" id="timef">
+                        <small></small>
+                    </div>
+                    <div class="form-it-btn">
+                        <button id="add-us">Ajouter</button>
+
+                    </div>
+                    <!-- </form> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- <script src="https://kit.fontawesome.com/5e19140a3f.js" crossorigin="anonymous"></script> -->
+    <script src="js/kit.fontawesome.js" crossorigin="anonymous"></script>
+    <script src="js/VARIABLES.js"></script>
+    <script src="js/fonction-js.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/back.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment.min.js"></script> -->
+</body>
+</html>
