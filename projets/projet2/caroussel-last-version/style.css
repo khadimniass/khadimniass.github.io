@@ -7,7 +7,7 @@
 	display: flex;
 	width: 800px;
 	height: 60vh;
-	margin: 0 auto;
+	margin: 0 auto 5rem 0;
 	margin-top: 5rem;
 	position: relative;
 	border-radius: 20px;
@@ -20,7 +20,7 @@ header{
 }
 .div1:hover{
 	cursor: pointer;
-	transform: scale(1.11);
+	transform: scale(1.02);
 }
 .divButton{
 	width: 100%;
