@@ -259,3 +259,15 @@
   new PureCounter();
 
 })()
+
+const placeDate = document.getElementById('date-year');
+  var date = new Date(); // Obtenir la date actuelle
+  var jour = date.getDate(); // Obtenir le jour du mois
+  var mois = date.getMonth() + 1; // Obtenir le mois (les mois commencent à 0)
+  var annee = date.getFullYear(); // Obtenir l'année
+
+  // Afficher la date dans le format souhaité (par exemple : 09/06/2023)
+  var dateComplete = (jour < 10 ? '0' : '') + jour + '/' + (mois < 10 ? '0' : '') + mois + '/' + annee;
+
+  // Mettre à jour le contenu de l'élément avec l'id "date"
+placeDate.innerHTML = annee;
