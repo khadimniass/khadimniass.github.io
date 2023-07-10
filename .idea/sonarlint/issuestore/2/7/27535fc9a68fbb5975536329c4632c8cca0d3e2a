@@ -1,0 +1,14 @@
+
+pjavascript:S3776"TRefactor this function to reduce its Cognitive Complexity from 39 to the 15 allowed.(ˆè²Ô
+gjavascript:S1848‡"EEither remove this useless object instantiation of "Typed" or use it.(‡Î¼¶ýÿÿÿÿ
+ejavascript:S1848•"HEither remove this useless object instantiation of "Waypoint" or use it.(—…ÄÍ
+djavascript:S1481Â"BRemove the declaration of the unused 'portfolioLightbox' variable.(æöŒŽüÿÿÿÿ
+ajavascript:S1854Â"?Remove this useless assignment to variable "portfolioLightbox".(æöŒŽüÿÿÿÿ
+cjavascript:S1848É"FEither remove this useless object instantiation of "Swiper" or use it.(­Š˜ß
+hjavascript:S1848Ú"FEither remove this useless object instantiation of "Swiper" or use it.(£¬…Íúÿÿÿÿ
+mjavascript:S1848ƒ"KEither remove this useless object instantiation of "PureCounter" or use it.(íóù´ûÿÿÿÿ
+Fjavascript:S3504ˆ")Unexpected var, use let or const instead.(¨ƒ¦Ù
+Kjavascript:S3504‰")Unexpected var, use let or const instead.(åÑÐÔþÿÿÿÿ
+Kjavascript:S3504Š")Unexpected var, use let or const instead.(Ñ¶Óëùÿÿÿÿ
+Fjavascript:S3504‹")Unexpected var, use let or const instead.(û¦ÅÝ
+Kjavascript:S3504Ž")Unexpected var, use let or const instead.(Ï…ÏÌùÿÿÿÿ
