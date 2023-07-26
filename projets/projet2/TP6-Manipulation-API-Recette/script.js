@@ -1,7 +1,6 @@
 const LINK_RANDOM = "https://www.themealdb.com/api/json/v1/1/random.php";
 const LINK_FILTER_BY_ID ="https://www.themealdb.com/api/json/v1/1/lookup.php?i=52913";
-const LINK_FILTER_BY_RECETTE_NAME =
-  "https://www.themealdb.com/api/json/v1/1/search.php?s=";
+const LINK_FILTER_BY_RECETTE_NAME = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
 const openPopup = document.getElementById("heart");
 const popup = document.querySelector(".containt-popup");
