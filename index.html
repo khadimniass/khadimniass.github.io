@@ -51,12 +51,12 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active" title="retourner à home"><i class="bx bx-home"></i><span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto" title="à propos de moi"><i class="bx bx-user"></i> <span>A propos de moi</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto" title="voir mes experiences"><i class="bx bx-abacus" ></i> <span>Experiences</span></a></li>
           <li><a href="#skills" class="nav-link scrollto" title="voir mes compétences"><i class="bx bx-file-blank"></i> <span>Compétences</span></a></li>
           <li><a href="#projet" class="nav-link scrollto" title="voir mes réalisations"><i class="bx bx-folder"></i><span>Projets</span></a></li>
-          <li><a href="#editeur" class="nav-link scrollto" title="liste de mes quelques éditeurs"><i class="bx bx-edit"></i> <span>Mes Editeurs</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto" title="voir mes experiences"><i class="bx bx-abacus" ></i> <span>Experiences</span></a></li>
           <li><a href="#certificats" class="nav-link scrollto" title="mes certifications optenus en ligne"><i class="bx bx-certification"></i> <span>Certification</span></a></li>
-          <li><a href="#services" class="nav-link scrollto" title="mes services que je donne"><i class="bx bx-server"></i> <span>Services</span></a></li>
+         <!-- <li><a href="#editeur" class="nav-link scrollto" title="liste de mes quelques éditeurs"><i class="bx bx-edit"></i> <span>Mes Editeurs</span></a></li>
+        --><li><a href="#services" class="nav-link scrollto" title="mes services que je donne"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto" title="contacter moi, remplir le formulaire"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -140,8 +140,10 @@
         </div>
       </div>
       <!--begin BADGE LINKEDIN -->
-      <section id="skills" class="skills  mt-2">
-        <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="khadim-niass-developper" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://sn.linkedin.com/in/khadim-niass-developper?trk=profile-badge">Khadim NIASS 👨💻💻👨💻</a></div>
+      <section class="skills  mt-2">
+        <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="khadim-niass-developper" data-version="v1">
+          <a class="badge-base__link LI-simple-link" href="https://sn.linkedin.com/in/khadim-niass-developper?trk=profile-badge" target="_blank">Khadim NIASS 👨‍💻💻👨‍💻</a>
+        </div>
       </section>
       <hr>
       <!--end BADGE LINKEDIN -->
@@ -724,6 +726,7 @@
   </div>
       
     <!-- begin éditeur -->
+    <!--
     <section id="editeur" class="services">
       <div class="container">
 
@@ -777,6 +780,7 @@
         </div>
       </div>
     </section>
+    -->
     <!-- End éditeur -->
 
     <!-- ======= Services Section ======= -->
@@ -791,19 +795,19 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="bi bi-code"></i></div>
-            <h4 class="title"><a href="">Apps</a></h4>
+            <h4 class="title"><a >Apps</a></h4>
             <p class="description">
               creer un site web ou une applivation du début jusqu'à la fin ?
             </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-server"></i></div>
-            <h4 class="title"><a href="">Base de Données</a></h4>
+            <h4 class="title"><a >Base de Données</a></h4>
             <p class="description">Vous cherchez un admin BD pour maintenir vos base de données ?</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-tools"></i></div>
-            <h4 class="title"><a href="">maintenances</a></h4>
+            <h4 class="title"><a >maintenances</a></h4>
             <p class="description">Vous avez une application qui existe déjà et que vous voulez amélioré ou ajouter des fonctionnalités</p>
           </div>
         
@@ -848,7 +852,7 @@
               <form action="https://formsubmit.co/niassssn@gmail.com" target="_blank" method="POST" role="form" class="php-email-form">
                 <input type="text" name="_honey" style="display:none" autofocus >
                 <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://khadimniass.me/thank.html">
+                <input type="hidden" name="_next" value="/thank.html">
                 <!-- <input type="hidden" name="_next" value="127.1.1.0:5500/thank.html"> -->
               <div class="row">
                 <div class="form-group col-md-6">
@@ -857,7 +861,7 @@
                 </div>
                 <div class="form-group col-md-6">
                   <label for="email">Votre Email</label>
-                  <input type="text" class="form-control" name="email" id="email" required placeholder="niassssn@gmail.com">
+                  <input type="email" class="form-control" name="email" id="email" required placeholder="khadimniass@khadim.live">
                 </div>
               </div>
               <div class="form-group">
